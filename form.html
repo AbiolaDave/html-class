@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <div>
+      <fieldset>
+        <legend>Personal Info</legend>
+        <form action="./multimedia.html">
+          <div>
+            <label for="">Name:</label>
+            <input
+              required
+              minlength="3"
+              maxlength="20"
+              placeholder="Please enter your full name"
+              type="text"
+            />
+          </div>
+          <br />
+          <div>
+            <label for="">Age:</label>
+            <input
+              required
+              min="18"
+              max="60"
+              placeholder="Enter age"
+              type="number"
+            />
+          </div>
+          <br />
+          <div>
+            <label for="">Institution:</label>
+            <input value="SQI College of ICT" readonly type="text" />
+          </div>
+          <br />
+          <div>
+            <label for="">Email:</label>
+            <input placeholder="abiola@gmail.com" type="email" />
+          </div>
+          <br />
+          <div>
+            <label for="">Password:</label>
+            <input placeholder="Enter password" type="password" />
+          </div>
+          <br />
+          <div>
+            <label for="">Color:</label>
+            <input type="color" />
+          </div>
+          <br />
+          <div>
+            <label for="">Happiness:</label>
+            <input min="1" max="6" type="range" />
+          </div>
+          <br />
+          <div>
+            <label for="">File:</label>
+            <input multiple accept=".jpg, .avif, .png, .jpeg" type="file" />
+          </div>
+          <br />
+          <div>
+            <!-- DOB simply means date of birth -->
+            <label for="">DOB:</label>
+            <input type="datetime-local" />
+          </div>
+          <br />
+          <div>
+            <label for="">Url:</label>
+            <input placeholder="www.abiola.com" type="url" />
+          </div>
+          <div>
+            <input type="hidden" />
+          </div>
+          <br />
+          <div>
+            <input value="Input Submit" type="button" />
+            <button>Submit</button>
+          </div>
+        </form>
+      </fieldset>
+    </div>
+  </body>
+</html>

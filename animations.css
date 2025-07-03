@@ -1,0 +1,98 @@
+.any {
+  border: 2px solid red;
+  width: 3000px;
+}
+
+.child {
+  border: 1px solid green;
+  width: 200px;
+  height: 200px;
+  /* animation-name: box; */
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-delay: 5s;
+  animation-timing-function: ease-in-out;
+  animation-play-state: running;
+  animation-direction: alternate-reverse;
+  overflow: hidden;
+}
+
+.phone {
+  margin-left: 220px;
+  margin-top: 200px;
+  animation: phone 10s linear 5s infinite;
+}
+
+@keyframes phone {
+  20% {
+    transform: translate(-100px, -100px);
+  }
+}
+
+.child:hover {
+  animation-play-state: paused;
+}
+
+@keyframes box {
+  20% {
+    background-color: blue;
+    transform: translate(200px);
+  }
+  40% {
+    background-color: yellow;
+    transform: translate(200px, 200px);
+    border-radius: 50%;
+  }
+  60% {
+    background-color: green;
+    transform: translate(0px, 200px);
+  }
+  80% {
+    background-color: red;
+    transform: translate(0px);
+    rotate: 270deg;
+  }
+  100% {
+    background-color: orange;
+  }
+}
+
+.child-2 {
+  border: 1px solid blue;
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+  animation: ball 8s linear 2s infinite normal;
+  border-radius: 50%;
+  margin-left: 300px;
+}
+
+.child-3 {
+  border: 1px solid grey;
+  width: 200px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: gray;
+  transform: skew(20deg);
+  margin-left: 300px;
+  margin-top: 155px;
+  animation: shadow 8s linear 2s infinite normal;
+}
+
+@keyframes ball {
+  20% {
+    transform: translate(0px, -150px);
+  }
+  60% {
+    transform: translate(0px, 150px);
+  }
+}
+
+@keyframes shadow {
+  20% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(0.4);
+  }
+}

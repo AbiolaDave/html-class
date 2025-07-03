@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+}
+.parent {
+  border: 1px solid blue;
+  width: 2000px;
+  height: 1800px;
+}
+
+.child {
+  border: 1px solid green;
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+}
+.static {
+  position: static;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+.fixed {
+  position: fixed;
+  /* margin-top: -400px; */
+  /* margin-left: 300px; */
+  top: -30px;
+  left: 200px;
+}
+
+.sticky {
+  position: sticky;
+  margin-top: -100px;
+  margin-left: 600px;
+  top: 200px;
+  left: 100px;
+}
+
+.relative {
+  position: relative;
+  /* margin-top: -300px; */
+  top: -300px;
+  background-color: darkcyan;
+  color: white;
+  z-index: 20;
+}
+
+.absolute {
+  background-color: blueviolet;
+  color: white;
+  position: absolute;
+  top: 200px;
+  z-index: 5;
+}

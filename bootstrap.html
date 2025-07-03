@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    <link
+      rel="stylesheet"
+      href="./assets/bootstrap-5.3.1-dist/css/bootstrap.css"
+    />
+    <script src="./assets/bootstrap-5.3.1-dist/js/bootstrap.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm fixed-top navbar-dark bg-white">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex gap-3 align-items-center" href="javascript:void(0)">
+            <img width="40" height="40" class="rounded-circle" src="./assets/IMG-20230616-WA0016.jpg" alt="">
+            <h3 class="text-success">Abiola</h3>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mynavbar"
+        >
+        <h1>I am happy</h1>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav  mx-auto">
+            <li class="nav-item">
+              <a class="nav-link text-success" href="/home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-success" href="/about">About</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link text-success" href="/contact">Cotact</a>
+            </li>
+          </ul>
+          <div>
+            <button class="btn btn-outline-success fw-bold">Sign Up</button>
+            <button class="btn btn-outline-info">Login</button>
+          </div>
+          <!-- <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Search" />
+            <button class="btn btn-primary" type="button">Search</button>
+          </form> -->
+        </div>
+      </div>
+    </nav>
+    <div
+      style="width: 500px; height: 500px"
+      class="border border-success border-5"
+    >
+      <img
+        class="mx-auto d-block"
+        width="200"
+        height="200"
+        src="./assets/IMG-20230616-WA0015.jpg"
+        alt=""
+      />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio hic,
+        facere ipsam laborum, ipsum expedita eaque porro quod nam excepturi
+        inventore vitae fuga voluptatibus similique voluptate odit fugiat
+        nesciunt amet enim voluptas dignissimos adipisci, placeat provident
+        neque. Dignissimos quas ut tempora reprehenderit commodi deserunt
+        dolorum laudantium quidem fuga dicta? Porro!
+      </p>
+    </div>
+    <div class="col-7 mx-auto mt-5">
+      <table
+        class="table table-bordered table-hover table-striped border-success"
+      >
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Email</th>
+            <th>Address</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="table-danger">
+            <td>Abiola</td>
+            <td>12</td>
+            <td>abiola@gmail</td>
+            <td>Opic</td>
+          </tr>
+          <tr class="table-primary">
+            <td>Jumoke</td>
+            <td>12</td>
+            <td>jumoke@gmail.com</td>
+            <td>Kuto</td>
+          </tr>
+          <tr>
+            <td>John</td>
+            <td>12</td>
+            <td>john@gmail.com</td>
+            <td>Kuto</td>
+          </tr>
+          <tr>
+            <td>Jane</td>
+            <td>12</td>
+            <td>jane@gmail.com</td>
+            <td>Kuto</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div
+      style="height: 100px"
+      class="d-flex border border-danger align-items-center gap-5 justify-content-evenly"
+    >
+      <h1>Abiola</h1>
+      <h1>Jumoke</h1>
+      <h1>John</h1>
+      <h1>Jane</h1>
+    </div>
+    <div>
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" href="/home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://edu.sqi.ng">SQI</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="">Home</a>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+/* .parent{
+    background-color: blue;
+    color: white;
+} */
+
+.block{
+    color: white;
+    background-color: blue;
+}
+.block-2{
+    color: white;
+    background-color: blueviolet;
+}
+
+.inline{
+    background-color: green;
+    color: white;
+    display: inline;
+    height: 200px;
+    width: 300px;
+}
+.inline-2{
+    background-color: yellow;
+    color: white;
+    display: inline;
+}
+
+/* Inline elements - span, button */
+
+.parent-3{
+    background-color: yellow;
+}
+.inline-block{
+    background-color: cornflowerblue;
+    color: white;
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+}
+.inline-block-2{
+    background-color: lawngreen;
+    color: white;
+    display: inline-block;
+}

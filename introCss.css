@@ -1,0 +1,50 @@
+/* selectors */
+/* Universal selector - * */
+/* tag selector */
+/* class selector */
+/* id selector */
+
+
+/* *{
+    color: chartreuse !important;
+} */
+
+h1{
+    color: purple !important;
+}
+h2{
+    color: aqua;
+}
+div{
+    background-color: blue;
+}
+hr{
+    color: red;
+}
+.hr{
+    color: yellow;
+}
+
+
+.exter{
+    color: blueviolet;
+}
+
+
+
+.sty{
+    /* color: darkcyan !important; */
+}
+
+#ext{
+    color: gold;
+}
+
+.sty{
+    color: green;
+}
+.exter{
+    color: blueviolet;
+}
+
+

@@ -1,0 +1,52 @@
+.parent {
+  color: green;
+}
+.grand-parent {
+  color: blue;
+}
+.child {
+  color: yellow;
+}
+
+.parent-1 {
+  /* border: 1px solid; */
+  border-width: 1px;
+  border-style: solid;
+  border-color: green;
+  width: 200px;
+  height: 200px;
+  /* margin: 100px; */
+  margin-left: 100px;
+  margin-bottom: 70px;
+  /* padding: 100px; */
+  padding-top: 40px;
+  padding-left: 40px;
+  color: lawngreen;
+  background-color: yellowgreen;
+  border-radius: 25px;
+}
+
+.parent-2 {
+  border: 10px;
+  border-color: red;
+  border-style: double;
+  width: 200px;
+  height: 200px;
+  margin-left: 100px;
+  background: linear-gradient(to top, orange, orangered, yellow);
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.parent-3{
+  border: 3px groove blue;
+  width: 200px;
+  height: 200px;
+  margin-top: 50px;
+  margin-left: 100px;
+  border-radius: 50%;
+  background-image: url(./assets/IMG-20230616-WA0016.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

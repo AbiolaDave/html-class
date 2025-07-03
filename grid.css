@@ -1,0 +1,66 @@
+.parent{
+    border: 1px solid green;
+    width: 1200px;
+    height: 1500px;
+    display: grid;
+    /* gap: 40px; */
+    column-gap: 30px;
+    row-gap: 50px;
+    justify-content: center;
+    align-content: center;
+    /* grid-template-columns: 200px 300px 100px;
+    grid-template-rows: 200px 300px; */
+    /* grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr; */
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(5, 200px);
+    grid-template-areas: "cat egg fish"
+    "apple apple apple"
+    "apple apple apple"
+    "goat dog iron"
+    "ball . hat"
+    ;
+
+}
+
+.child{
+    border: 1px solid blue;  
+}
+
+.child-a{
+    /* grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4; */
+    /* grid-column: 1/ span 2;
+    grid-row: 1/ span 2; */
+    grid-area: apple;
+    
+}
+
+.child-b{
+    /* grid-column-start: 2;
+    grid-column-end: 4; */
+    grid-area: ball;
+}
+.child-c{
+    grid-area: cat;
+}
+.child-d{
+    grid-area: dog;
+}
+.child-e{
+    grid-area: egg;
+}
+.child-f{
+    grid-area: fish;
+}
+.child-g{
+    grid-area: goat;
+}
+.child-h{
+    grid-area: hat;
+}
+.child-i{
+    grid-area: iron;
+}
